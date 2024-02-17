@@ -11,7 +11,12 @@ from openai import OpenAI
 import pyaudio
 import wave
 import whisper
+import RPi.GPIO as GPIO
 
+
+BUTTON = 8
+GPIO.setmode(GPIO.BOARD)
+GPIO.setup(BUTTON, GPIO.IN, pull_up_down=GPIO.PUD_UP)
 
 model = whisper.load_model("base")
 
@@ -94,5 +99,8 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    print("Ready...")
+    while(True):
+        if GPIO.input(BUTTON) == GPIO.LOW:
+            main()
 
