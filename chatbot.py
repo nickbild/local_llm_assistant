@@ -31,7 +31,7 @@ def record_wav():
     chans = 1
     samp_rate = 16000
     chunk = 4096
-    record_secs = 2
+    record_secs = 3
     dev_index = 1
     wav_output_filename = 'input.wav'
 
