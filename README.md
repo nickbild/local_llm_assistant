@@ -18,7 +18,7 @@ After setup is complete, the Raspberry Pi can be completely disconnected from th
 
 ## Instructions
 
-- Write Ubuntu 22.04.3 LTS (64-BIT) to an SD card with the Raspberry Pi Imager software.
+- Write Ubuntu Server 22.04.3 LTS (64-bit) to an SD card with the Raspberry Pi Imager software.
   - Raspberry Pi OS is incompatible with llamafile, unless you are using a Raspberry Pi 5 or build a custom kernel.
 
 On the Raspberry Pi:
