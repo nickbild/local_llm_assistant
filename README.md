@@ -5,22 +5,24 @@
 ## Instructions
 
 - Write Ubuntu 22.04.3 LTS (64-BIT) to an SD card with the Raspberry Pi Imager software.
- - Raspberry Pi OS is incompatible with llamafile, unless you are using a Raspberry Pi 5.
+  - Raspberry Pi OS is incompatible with llamafile, unless you are using a Raspberry Pi 5.
 
 On the Raspberry Pi:
 
-- sudo apt update
-- sudo apt install ffmpeg
-- sudo apt install espeak
-- sudo apt install python3-pip
-- sudo apt install python3-pyaudio
-- pip3 install openai openai-whisper RPi.GPIO pyaudio
+```
+sudo apt update
+sudo apt install ffmpeg
+sudo apt install espeak
+sudo apt install python3-pip
+sudo apt install python3-pyaudio
+pip3 install openai openai-whisper RPi.GPIO pyaudio
 
-- git clone https://github.com/nickbild/local_llm_assistant
-- cd local_llm_assistant
-- wget https://huggingface.co/jartine/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/main/TinyLlama-1.1B-Chat-v1.0.Q5_K_M.llamafile?download=true
-- mv TinyLlama-1.1B-Chat-v1.0.Q5_K_M.llamafile?download=true TinyLlama-1.1B-Chat-v1.0.Q5_K_M.llamafile
-- chmod 755 TinyLlama-1.1B-Chat-v1.0.Q5_K_M.llamafile
+git clone https://github.com/nickbild/local_llm_assistant
+cd local_llm_assistant
+wget https://huggingface.co/jartine/TinyLlama-1.1B-Chat-v1.0-GGUF/resolve/main/TinyLlama-1.1B-Chat-v1.0.Q5_K_M.llamafile?download=true
+mv TinyLlama-1.1B-Chat-v1.0.Q5_K_M.llamafile?download=true TinyLlama-1.1B-Chat-v1.0.Q5_K_M.llamafile
+chmod 755 TinyLlama-1.1B-Chat-v1.0.Q5_K_M.llamafile
+```
 
 - Plug a speaker into the headphone jack
 - Plug in a USB microphone

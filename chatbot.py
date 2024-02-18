@@ -1,6 +1,7 @@
 ###
 # Nick Bild
 # February 2024
+# https://github.com/nickbild/local_llm_assistant
 #
 # Be sure to start the LLM before running this script, e.g.:
 # ./TinyLlama-1.1B-Chat-v1.0.Q5_K_M.llamafile
