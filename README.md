@@ -6,7 +6,7 @@ My [ChatGPT-powered voice assistant](https://github.com/nickbild/voice_chatgpt) 
 
 This time around, the voice assistant runs fully locally on a Raspberry Pi 4 — no Internet connectivity or cloud-based services are needed. It is also very easy to set up, so I named it the World's Easiest GPT-like Voice Assistant, which is almost certainly not true. But it is at least close to the truth, and it gets the point across in few words, so please go easy on me. :)
 
-![](https://raw.githubusercontent.com/nickbild/local_llm_assistant/main/media/front_sm.jpg)
+![](https://raw.githubusercontent.com/nickbild/local_llm_assistant/main/media/logo.jpg)
 
 ## How It Works
 
@@ -56,6 +56,8 @@ Wait a few seconds until you see the "Ready..." message, then press the button w
 *NOTE*: The first time that you run this script, the speech-to-text model will need to be downloaded, so have patience. It will be cached locally for future runs.
 
 ## Media
+
+![](https://raw.githubusercontent.com/nickbild/local_llm_assistant/main/media/front_sm.jpg)
 
 ![](https://raw.githubusercontent.com/nickbild/local_llm_assistant/main/media/top_sm.jpg)
 
