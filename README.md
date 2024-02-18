@@ -6,6 +6,8 @@ My [ChatGPT-powered voice assistant](https://github.com/nickbild/voice_chatgpt) 
 
 This time around, the voice assistant runs fully locally on a Raspberry Pi 4 — no Internet connectivity or cloud-based services are needed. It is also very easy to set up, so I named it the World's Easiest GPT-like Voice Assistant, which is almost certainly not true. But it is at least close to the truth, and it gets the point across in few words, so please go easy on me. :)
 
+![](https://raw.githubusercontent.com/nickbild/local_llm_assistant/main/media/front_sm.jpg)
+
 ## How It Works
 
 On pressing a pushbutton, audio will be recorded through a USB microphone. That audio will be forwarded into the Whisper automatic speech recognition software, which generates a transcript of the audio. The transcript is used to prompt a TinyLlama-1.1B (1.1 billion parameter) LLM that has been packaged up as a [llamafile](https://github.com/mozilla-Ocho/llamafile). If you are not familiar with llamafile yet, it is well worth checking out. They are entirely self-contained LLM-based chatbot executables that run on multiple hardware architectures and operating systems.
@@ -54,6 +56,8 @@ Wait a few seconds until you see the "Ready..." message, then press the button w
 *NOTE*: The first time that you run this script, the speech-to-text model will need to be downloaded, so have patience. It will be cached locally for future runs.
 
 ## Media
+
+https://raw.githubusercontent.com/nickbild/local_llm_assistant/main/media/top_sm.jpg
 
 ## Bill of Materials
 
