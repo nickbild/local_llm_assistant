@@ -8,7 +8,7 @@ This time around, the voice assistant runs fully locally on a Raspberry Pi 4 —
 
 ## How It Works
 
-On pressing a pushbutton, audio will be recorded through a USB microphone. That audio will be forwarded into the Whisper automatic speech recognition software, which generates a transcript of the audio. The transcript is used to prompt a TinyLlama-1.1B (1.1 billion parameter) LLM that has been packaged up as a [llamafile](https://github.com/mozilla-Ocho/llamafile). If you are not familiar with llamafile yet, it is well worth checking out. They are entirely self-contained LLM-based chatbots that run on multiple hardware architectures and operating systems.
+On pressing a pushbutton, audio will be recorded through a USB microphone. That audio will be forwarded into the Whisper automatic speech recognition software, which generates a transcript of the audio. The transcript is used to prompt a TinyLlama-1.1B (1.1 billion parameter) LLM that has been packaged up as a [llamafile](https://github.com/mozilla-Ocho/llamafile). If you are not familiar with llamafile yet, it is well worth checking out. They are entirely self-contained LLM-based chatbot executables that run on multiple hardware architectures and operating systems.
 
 The response from the LLM is then forwarded into the free and open-source eSpeak speech synthesizer to produce an audio file. Finally, that audio file is played on a speaker connected to the Raspberry Pi.
 
