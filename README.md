@@ -8,6 +8,12 @@ This time around, the voice assistant runs fully locally on a Raspberry Pi 4 —
 
 ## How It Works
 
+On pressing a pushbutton, audio will be recorded through a USB microphone. That audio will be forwarded into the Whisper automatic speech recognition software, which generates a transcript of the audio. The transcript is used to prompt a TinyLlama-1.1B LLM (1.1 billion parameters) LLM that has been packaged up as a [llamafile](https://github.com/mozilla-Ocho/llamafile). If you are not familiar with llamafile yet, it is well worth checking out. They are entirely self-contained LLM-based chatbots that run on multiple hardware architectures and operating systems.
+
+The response from the LLM is then forwarded into the free and open-source eSpeak speech synthesizer to produce an audio file. Finally, that audio file is played on a speaker connected to the Raspberry Pi.
+
+After setup is complete, the Raspberry Pi can be completely disconnected from the Internet. Everything runs 100% locally, keeping your conversations private. There is a price to pay for this, however. A typical request can easily take 10 seconds of processing (on a Pi 4) before the response is ready. And, of course, if you make a complicated request, or ask for a lenghty story to be generated, it will take longer yet.
+
 ## Instructions
 
 - Write Ubuntu 22.04.3 LTS (64-BIT) to an SD card with the Raspberry Pi Imager software.
