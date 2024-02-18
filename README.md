@@ -29,9 +29,13 @@ chmod 755 TinyLlama-1.1B-Chat-v1.0.Q5_K_M.llamafile
 - Wire a pushbutton to pins 6 and 8 (BOARD numbering scheme)
 
 Start up the LLM with:
-- ./TinyLlama-1.1B-Chat-v1.0.Q5_K_M.llamafile
+```
+./TinyLlama-1.1B-Chat-v1.0.Q5_K_M.llamafile
+```
 Then, in a different window, start the voice assistant software:
-- python3 chatbot.py
+```
+python3 chatbot.py
+```
 
 Wait a few seconds until you see the "Ready..." message, then press the button when you want to talk. When you see the "recording" message, speak your request. After the LLM completes its work, the response will be spoken through the speaker.
 
