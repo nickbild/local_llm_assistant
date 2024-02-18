@@ -57,7 +57,7 @@ Wait a few seconds until you see the "Ready..." message, then press the button w
 
 ## Media
 
-https://raw.githubusercontent.com/nickbild/local_llm_assistant/main/media/top_sm.jpg
+![](https://raw.githubusercontent.com/nickbild/local_llm_assistant/main/media/top_sm.jpg)
 
 ## Bill of Materials
 
