@@ -12,7 +12,7 @@ On pressing a pushbutton, audio will be recorded through a USB microphone. That 
 
 The response from the LLM is then forwarded into the free and open-source eSpeak speech synthesizer to produce audio that is played on a speaker connected to the Raspberry Pi.
 
-After setup is complete, the Raspberry Pi can be completely disconnected from the Internet. Everything runs 100% locally, keeping your conversations private. There is a price to pay for this, however. A typical request can easily take 10 seconds of processing (on a Pi 4) before the response is ready. And, of course, if you make a complicated request, or ask for a lenghty story to be generated, it will take longer yet.
+After setup is complete, the Raspberry Pi can be completely disconnected from the Internet. Everything runs 100% locally, keeping your conversations private. There is a price to pay for this, however. A typical request can easily take 10 seconds of processing (on a Pi 4) before the response is ready. And, of course, if you make a complicated request, or ask for a lengthy story to be generated, it will take longer yet.
 
 ## Instructions
 
