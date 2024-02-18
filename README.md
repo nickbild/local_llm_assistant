@@ -58,7 +58,7 @@ Wait a few seconds until you see the "Ready..." message, then press the button w
 ## Bill of Materials
 
 - 1 x Raspberry Pi 4 (a Pi 5 should also work great, but not tested)
-- 1 x USB microphone
+- 1 x USB microphone (I'm using a webcam's microphone)
 - 1 x Speaker with TRS plug input
 - 1 x Pushbutton
 
