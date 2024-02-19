@@ -4,6 +4,8 @@
 
 The World's Easiest GPT-like Voice Assistant uses an open-source Large Language Model (LLM) to respond to verbal requests, and it runs 100% locally on a Raspberry Pi.
 
+[See it in action here](https://www.youtube.com/watch?v=LTn2SPZw1mw).
+
 My [ChatGPT-powered voice assistant](https://github.com/nickbild/voice_chatgpt) has received a lot of interest, with many requests being made for a step-by-step installation guide. I never got around to writing up the guide, and now the methods used are a bit dated and technology has advanced. As such, I have decided to build an updated LLM-based voice assistant, and this time, also provide full instructions.
 
 This time around, the voice assistant runs fully locally on a Raspberry Pi 4 — no Internet connectivity or cloud-based services are needed. It is also very easy to set up, so I named it the World's Easiest GPT-like Voice Assistant, which is almost certainly not true. But it is at least close to the truth, and it gets the point across in few words, so please go easy on me. :)
