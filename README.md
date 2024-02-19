@@ -57,6 +57,8 @@ Wait a few seconds until you see the "Ready..." message, then press the button w
 
 ## Media
 
+[Demo Video](https://www.youtube.com/watch?v=LTn2SPZw1mw)
+
 ![](https://raw.githubusercontent.com/nickbild/local_llm_assistant/main/media/front_sm.jpg)
 
 ![](https://raw.githubusercontent.com/nickbild/local_llm_assistant/main/media/top_sm.jpg)
